@@ -1,6 +1,3 @@
-getgenv().autogourd = true
-local item = "Large Gourd" -- Large Medium Small
-
 local function checkGourd()
     for i, v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Gui.Inventory.InventoryItems.Items:GetChildren()) do
         if string.find(v.Name, "Gourd") then
